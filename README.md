@@ -6,9 +6,9 @@ Required input from bin\TrackCoin-CsvShowScreenAndJson.ps1 to be written to Coin
 
 
 Todo:
-- [] Improve styling with bootstrap
-- [] Outsource ps1 file to DataService and add more Exchanges
-- [] Filter data before showing
-- [] Add current price to the left of the bar
-- [] Add lower/high
-- [] Improve layout to show more coins on one page
+- [ ] Improve styling with bootstrap
+- [ ] Outsource ps1 file to DataService and add more Exchanges
+- [ ] Filter data before showing
+- [ ] Add current price to the left of the bar
+- [ ] Add lower/high
+- [ ] Improve layout to show more coins on one page
