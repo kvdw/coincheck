@@ -1,0 +1,21 @@
+* {
+    font-size:10px
+}
+
+table.table {
+    table-layout: fixed;
+    width: 50%
+
+}
+tbody {
+     /* width: 100%  */
+}
+
+td.coin-small {
+
+    table-layout: fixed;
+    /* width: 10%;
+    max-width: 10%; */
+    border: 1px solid black; 
+    /* display: inline-flex */
+}

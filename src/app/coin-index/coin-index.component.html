@@ -1,0 +1,34 @@
+
+
+<div *ngFor="let coin of CoinData ">
+  <tbody>
+    <td>
+      <table class="table">
+        <thead>
+          <td>{{coin.pair}}</td>
+        </thead>
+        <tbody>
+          <!-- <tr>
+            <td>open</td>
+            <td class="coin-small" *ngFor="let item of coin.data" >{{item.open}}</td>
+          </tr> -->
+          <tr>
+            <td>open / close</td>
+            <td class="coin-small" *ngFor="let item of coin.data" >{{item.open}} / {{item.close}}</td>
+          </tr>
+          <tr>
+            <td>diff low high</td>
+            <td class="coin-small" *ngFor="let item of coin.data">{{item.difflowhigh}}</td>
+          </tr>
+          <tr>
+            <td>diff open close</td>
+            <td class="coin-small" *ngFor="let item of coin.data" [style.background-color]=ColorBasedInput(item.diffopenclose)>{{item.diffopenclose}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </td>
+  </tbody>
+
+
+</div>
+<br>
